@@ -8,7 +8,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -59,7 +58,6 @@ nav {
   outline: none;
   border-radius: 5px;
   width: 200px;
-  transition: transform 0.3s ease;
 }
 
 .btn-secondary {
@@ -73,11 +71,6 @@ nav {
   background-color: var(--secondary);
   color: var(--primary);
 }
-
-.btn:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-} 
 
 .main-content {
   display: flex;
@@ -226,7 +219,6 @@ footer .container {
 }
 .footer-links li a {
  text-decoration: none;
- color: var(--primary);
 }
 @media screen and (max-width:540px) {
   .menu-btn {
@@ -288,11 +280,7 @@ footer .container {
     width: 350px;
     
   }
-  #services .line  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   footer .container {
     display: flex;
     flex-direction: column; 
